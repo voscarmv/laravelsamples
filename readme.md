@@ -6,6 +6,8 @@ So far I have
 - Tweaked this readme.md
 - Installed Laravel SSH https://laravelcollective.com/docs/5.0/ssh#installation
 - Used it to output unix fortunes: \app\Http\Controllers\UNIXFortuneController.php, \config\remote.php
+- Added a homepage
+- Added my brown corpus experiment
 
 ## License
 

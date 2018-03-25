@@ -12,7 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
-Route::get("/unixfortune", 'UNIXFortuneController@index');
+Route::get("/unixfortune", 'Examples@unixfortune');
+
+Route::get("/brownmadlibs", 'Examples@brownmadlibs');
