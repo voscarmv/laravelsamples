@@ -3,5 +3,5 @@
 @section('title', 'Free UNIX fortune')
 
 @section('content')
-<big><big>{{$fortune}}</big></big>
+<big><big><big><big><big><big><big><big>{{$fortune}}</big></big></big></big></big></big></big></big>
 @endsection
