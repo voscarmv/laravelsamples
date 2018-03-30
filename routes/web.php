@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get("/unixfortune", 'Examples@unixfortune');
 
 Route::get("/brownmadlibs", 'Examples@brownmadlibs');
+
+Route::get("/form", 'Examples@form');
+
+Route::post("/form", 'Examples@response');

@@ -8,6 +8,7 @@ So far I have
 - Used it to output unix fortunes: \app\Http\Controllers\UNIXFortuneController.php, \config\remote.php
 - Added a homepage
 - Added my brown corpus experiment
+- Made a model. Was able to insert rows in database.
 
 ## License
 

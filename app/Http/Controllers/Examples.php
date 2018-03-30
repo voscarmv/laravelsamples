@@ -25,4 +25,20 @@ class Examples extends Controller
 		return view('brownmadlibs', array('madlibs' => $this->output));
     }
 
+    public function form(){
+    	return view('form', array('input' => 'henlo'));
+    }
+
+    public function response(Request $request){
+    	 \App\Post::create(array('name' => $request->input('username')));
+    	 $post = new \App\Post();
+
+    	 $data = $post->all(array('name','id'));
+    	 foreach ($data as $list) {
+        	echo $list->id . ' ' . $list->name . '<br>';
+    	}
+    	 //\App\Post::create(array('name', 'heblord'));
+    	return $request->input('username');
+    }
+
 }
