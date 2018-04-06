@@ -9,6 +9,7 @@ So far I have
 - Added a homepage
 - Added my brown corpus experiment
 - Made a model. Was able to insert rows in database.
+- Added old-school HTML guestbook.
 
 ## License
 

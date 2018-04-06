@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('index');
 });
 
 Route::get("/unixfortune", 'Examples@unixfortune');
