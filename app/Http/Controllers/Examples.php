@@ -13,15 +13,17 @@ class Examples extends Controller
     //
 
 	public function unixfortune(){
-		\SSH::run("/usr/games/fortune", function($line){
-			$this->output=$line.PHP_EOL;
+$this->output="";
+		\SSH::run("cd bogambo.net/laravel/fortunes && ./fortune.sh", function($line){
+			$this->output=$this->output.$line." ";
 		});
 		return view('unixfortune', array('fortune' => $this->output));
     }
 
 	public function brownmadlibs(){
-		\SSH::run("cd code/laravelsamples/brown && ./generate.sh 4", function($line){
-			$this->output=$line.PHP_EOL;
+$this->line="";
+		\SSH::run("cd bogambo.net/laravel/brown && sh generate.sh 4", function($line){
+$this->output=$this->output.$line." ";
 		});
 		return view('brownmadlibs', array('madlibs' => $this->output));
     }

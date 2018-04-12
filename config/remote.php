@@ -29,8 +29,8 @@ return [
     'connections' => [
         'production' => [
             'host'      => 'localhost',
-            'username'  => 'vagrant',
-            'password'  => 'vagrant',
+            'username'  => 'u53rn4m3',
+            'password'  => 'p455w0r6',
             'key'       => '',
             'keytext'   => '',
             'keyphrase' => '',
