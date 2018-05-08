@@ -22,3 +22,6 @@ Route::get("/brownmadlibs", 'Examples@brownmadlibs');
 Route::get("/form", 'Examples@form');
 
 Route::post("/form", 'Examples@response');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

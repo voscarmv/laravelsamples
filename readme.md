@@ -11,6 +11,7 @@ So far I have
 - Made a model. Was able to insert rows in database.
 - Added old-school HTML guestbook.
 - This code now runs on www.bogambo.net and is hosted by www.webrahost.com
+- Added default laravel auth
 
 ## License
 
